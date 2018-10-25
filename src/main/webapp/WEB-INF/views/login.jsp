@@ -9,7 +9,7 @@
   <div style="padding-top: 100px;">
 	  <fieldset>
 	    <h1>Login</h1>
-	    <form>
+	    <form id="login_form" method="post" th:action="@{'/login'}">
 	      <div class="iconUser"></div>
 	        <input type="text" placeholder="ユーザー名" required>
 	        <br><br>
